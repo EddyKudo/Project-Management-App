@@ -2,14 +2,12 @@ import React, { useContext, useEffect } from "react";
 import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
 import ScrollToTop from "./component/scrollToTop";
 import history from "./history";
-
 // import { Home } from "./views/home";
 import { Landing } from "./views/landing";
 import { LoginMaterial } from "./views/loginMaterial";
 import { SignUp } from "./views/signup";
 import { Dashboard } from "./views/dashboard";
 import injectContext, { Context } from "./store/appContext";
-
 import { Navbar } from "./component/navbar";
 import { RedirectNewuser } from "./component/newUserRedirect";
 import { RedirectLogin } from "./component/loginRedirect";
